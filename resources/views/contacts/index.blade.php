@@ -18,3 +18,5 @@
         <a href="{{ route('contacts.edit', $contact->id) }}">Editar</a>
     </div>
 @endforeach
+
+{{ $contacts->links() }}
